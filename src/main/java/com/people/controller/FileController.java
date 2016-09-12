@@ -13,7 +13,7 @@ public class FileController {
 
    @RequestMapping("/name")
     public String getFileName(){
-        
+        System.out.println("dgsdf");
         return "filename.....";
     }
 }
